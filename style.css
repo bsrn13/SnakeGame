@@ -1,0 +1,83 @@
+.body {
+  font-family: "Cookie", cursive;
+}
+
+.start {
+  background: #59d0e0;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  outline: none;
+  cursor: pointer;
+}
+.start:hover {
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 1px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-3px, -3px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(3px, 2, 0);
+  }
+}
+
+.score {
+  background-color: #57baf7;
+  border-radius: 10px;
+  text-align: center;
+  width: 35%;
+  height: 20px;
+  margin: 10px;
+  color: #eee;
+}
+.navBar {
+  margin: 30px;
+}
+
+.container {
+  width: 800px;
+  padding: 10% 20%;
+  display: flex;
+  float: left;
+}
+.grid {
+  border-radius: 5%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+.grid div {
+  border-radius: 30%;
+  width: 20px;
+  height: 20px;
+  border: #adc7e0;
+  border-style: solid;
+}
+
+.snake {
+  background-color: #b7d3ed;
+}
+
+.apple {
+  background-color: #f02231;
+}

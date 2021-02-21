@@ -1,2 +1,3 @@
 # SnakeGame
- old snake game 
+
+old snake game on Nokia 3310
